@@ -1,0 +1,63 @@
+body{
+    background-color: teal;
+}
+*{
+    box-sizing: border-box;
+}
+#fn{
+    font-family: 'Roboto', sans-serif;
+}
+.psw{
+    font-family: 'Roboto', sans-serif;
+}
+.cpsw{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: white;    
+    box-shadow: 20px 20px 20px rgb(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+input[type='text']{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    justify-content: end;
+    border-radius: 10px;
+}
+input[type='password']{
+    width: 100%;
+    padding: 12px 10px; 
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: white;
+    justify-content: end;
+    border-radius: 10px;
+}
+input[type='text']:focus
+input[type='password']:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.registerbtn{
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    margin: auto;
+    border-radius: 10px;
+}
+.registerbtn:hover{
+    opacity: 1;
+}
